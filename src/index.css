@@ -3,12 +3,12 @@
   padding: 0;
 }
 .nav-link-hover {
-  color: #a54141;
+  color: #ffffff;
   cursor: pointer;
   transition: all 0.3s ease;
 }
 
 .nav-link-hover:hover {
-  color: #0dcaf0; /* Bootstrap's info color */
+  color: #d82d2d; /* Bootstrap's info color */
   text-decoration: underline;
 }

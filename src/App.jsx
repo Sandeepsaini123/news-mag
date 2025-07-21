@@ -7,6 +7,7 @@ import Footer from './Components/Footer';
 
 const App = () => {
   const [category, setCategory] = useState('general');
+
   return (
     <div>
       <Navbar setCategory={setCategory} />
