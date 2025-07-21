@@ -1,0 +1,14 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+.nav-link-hover {
+  color: #a54141;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.nav-link-hover:hover {
+  color: #0dcaf0; /* Bootstrap's info color */
+  text-decoration: underline;
+}
