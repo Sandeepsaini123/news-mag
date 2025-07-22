@@ -9,22 +9,22 @@ const Navbar = ({ setCategory }) => {
     <div className="collapse navbar-collapse" id="navbarSupportedContent">
       <ul className="navbar-nav me-auto mb-2 mb-lg-0">
         <li className="nav-item">
-          <div className="nav-link active" style={{ cursor: 'pointer' }} onClick={() => setCategory('technology')}>Technology</div>
+          <div className="nav-link nav-link-hover"  onClick={() => setCategory('technology')}>Technology</div>
         </li>
           <li className="nav-item">
-          <div className="nav-link active" style={{ cursor: 'pointer' }} onClick={() => setCategory('business')}>Business</div>
+          <div className="nav-link nav-link-hover" onClick={() => setCategory('business')}>Business</div>
         </li>
          <li className="nav-item">
-          <div className="nav-link active" style={{ cursor: 'pointer' }} onClick={() => setCategory('health')}>Health</div>
+          <div className="nav-link nav-link-hover"  onClick={() => setCategory('health')}>Health</div>
         </li>
          <li className="nav-item">
-          <div className="nav-link active" style={{ cursor: 'pointer' }} onClick={() => setCategory('science')}>Science</div>
+          <div className="nav-link nav-link-hover"  onClick={() => setCategory('science')}>Science</div>
         </li>
          <li className="nav-item">
-          <div className="nav-link active" style={{ cursor: 'pointer' }} onClick={() => setCategory('sports')}>Sports</div>
+          <div className="nav-link nav-link-hover"  onClick={() => setCategory('sports')}>Sports</div>
         </li>
         <li className="nav-item">
-          <div className="nav-link active" style={{ cursor: 'pointer' }} onClick={() => setCategory('entertainment')}>Entertainment</div>
+          <div className="nav-link nav-link-hover"  onClick={() => setCategory('entertainment')}>Entertainment</div>
         </li>
       </ul>
     </div>
